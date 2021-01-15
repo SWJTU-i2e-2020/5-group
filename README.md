@@ -39,8 +39,17 @@
 |  CO2浓度监视器  |  [提取码: rquc](https://pan.baidu.com/s/1fE2-dRpwdXBkVxVm5pLW_w)  |  
 |  可实现远程监测的检测系统  |  [提取码：mue7](https://pan.baidu.com/s/1D0fw4ZSlolLxLa11EVaqEg)  |
 ## 三、详细设计
-
-
+### 物料清单
+| 序号 | 名称 | 型号/规格 | 封装 | 用量 | 品牌 | 商品编号 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 1 | 二氧化碳传感器 | CCS811空气质量测量传感器 | 单独IC封装，15.24mm×15.24mm×2mm | 1 | 维特智能 | 911141 |
+| 2 | 电磁式有源一体蜂鸣器5V | YS-MBZ12095DYB05 | Through Hole,12x9.5mm | 2 | Fengming(锋鸣电子) | C409831 |
+| 3 | 灯带 | ws2812 |
+| 4 | OLED显示模块 | QG-2832TSWFG02 | 0.91"128x32 | 2 | 全智景Allvision | C91219 |
+| 5 | 亚克力板 |  | 500mm×500mm×2mm  | 1 |  |  |
+| 6 | 2.54杜邦线母对母单P同向(黑) | S108520012 | - | 15 | Ckmtw(灿科盟) | C368924 |
+| 7 | esp32 | NodeMCU-32SLua | - | 2 | Ai-Thinker(安信可) | C111436 |
+| 8 | Lora | Ra-02/0.91 | Module | 1 | Ai-Thinker(安信可) | C90039 |
 ### 加工制作过程
 [制作过程](https://zaowu.fun/p/600049a236531447f6c5b4b5)
 ## 四、性能指标
