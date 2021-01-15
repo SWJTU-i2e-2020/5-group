@@ -229,7 +229,7 @@ void onSleep()
   
 2. 在库管理器中安装：WIFI, SSD1306, Adafruit CCS811 Library, LoRaNow, PubSubClient等库。即代码中各种头文件。
   
-  1、2步可见http://106.13.48.217/
+      1、2步可见http://106.13.48.217/
   
 3. 将设备连入电脑。
 
