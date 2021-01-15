@@ -34,10 +34,10 @@
 | 使用寿命 | 功耗低、生命周期长|
 | 尺寸 | 小巧易携 |  
 ## 二、概念设计
-| 概念 |  概念草图  |  介绍  |
-|  ------------  |  -----------  |  ------------  |
-|  CO2浓度监视器  |  [Pic1](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5nsdb1fMdUe6oXhOfWzsUpS8sXoPRI2dmwUzsfTiaiblZbFiaC1rnrgWHw/0?wx_fmt=png)  |  [Intro1](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5ZMZ3HVAl1mXmn3eMPibb3lWlNFT7enlG4XyxfbNDwvcQQCouRdZKBPg/0?wx_fmt=png)  |
-|  可实现远程监测的检测系统  |  [Pic2](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5u8KryG5K7yAwj0EibspmC08pZG5ib9Oqibh93SXzAjshHdZEDyxonoOlw/0?wx_fmt=png)  |[Intro2](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5aia4Vnlc8qD6czA3S7sXRibCZnYHb9YVubA6nym3INiaHf8SxzcOBRqCg/0?wx_fmt=png)  |
+| 概念 |  概念草图及介绍  |
+|  ------------  |  -----------  |
+|  CO2浓度监视器  |  [提取码: rquc](https://pan.baidu.com/s/1fE2-dRpwdXBkVxVm5pLW_w)  |  
+|  可实现远程监测的检测系统  |  [提取码：mue7](https://pan.baidu.com/s/1D0fw4ZSlolLxLa11EVaqEg)  |
 ## 三、详细设计
 
 
