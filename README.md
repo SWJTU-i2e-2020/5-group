@@ -12,17 +12,12 @@
 ## 一、问题定义
    
 ## 二、概念设计
-### 概念一：CO2浓度监视器
-[Pic1](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/3.png)
-[Intro1](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/4.png)
-### 概念二：可实现远程监测的检测系统
-[Pic2](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/5.png)
-[Intro2](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.png)
+| 概念 |  概念草图  |  介绍  |
+|  ------------  |  -----------  |  ------------  |
+|  CO2浓度监视器  |  [Pic1](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5nsdb1fMdUe6oXhOfWzsUpS8sXoPRI2dmwUzsfTiaiblZbFiaC1rnrgWHw/0?wx_fmt=png)  |  [Intro1](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5ZMZ3HVAl1mXmn3eMPibb3lWlNFT7enlG4XyxfbNDwvcQQCouRdZKBPg/0?wx_fmt=png)  |
+|  可实现远程监测的检测系统  |  [Pic2](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5u8KryG5K7yAwj0EibspmC08pZG5ib9Oqibh93SXzAjshHdZEDyxonoOlw/0?wx_fmt=png)  |[Intro2](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5aia4Vnlc8qD6czA3S7sXRibCZnYHb9YVubA6nym3INiaHf8SxzcOBRqCg/0?wx_fmt=png)  |
 ## 三、详细设计
 
-
-[test 提取码: 8bri](https://pan.baidu.com/s/1H7AHG4ytIJ9ogcDavMNEzQ)
-### 加工制作过程
 [制作过程](https://zaowu.fun/p/600049a236531447f6c5b4b5)
 ## 四、性能指标
 
@@ -182,23 +177,8 @@ void onSleep()
    软件:Arduino,硬件esp32, LoRa, ccs811, oled等。
 
 1.  Arduino中开发板管理器中下载esp32并在开发板中选择ESP32 Dev Module。 
-
-
-  ![1](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.1.png)
-  
-  ![2](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.2.png)
-    
-  ![3](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.3.png)
-  
   
 2. 在库管理器中安装：WIFI, SSD1306, Adafruit CCS811 Library, LoRaNow, PubSubClient等库。即代码中各种头文件。
-
-  
-    ![4](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.4.png)
-    
-    
-    ![5](https://github.com/SWJTU-i2e-2020/5-intelligence-agriculture/blob/main/images/6.5.png)
-  
   
 3. 将设备连入电脑。
 
