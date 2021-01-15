@@ -17,26 +17,35 @@
 |  CO2浓度监视器  |  [Pic1](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5nsdb1fMdUe6oXhOfWzsUpS8sXoPRI2dmwUzsfTiaiblZbFiaC1rnrgWHw/0?wx_fmt=png)  |  [Intro1](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5ZMZ3HVAl1mXmn3eMPibb3lWlNFT7enlG4XyxfbNDwvcQQCouRdZKBPg/0?wx_fmt=png)  |
 |  可实现远程监测的检测系统  |  [Pic2](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5u8KryG5K7yAwj0EibspmC08pZG5ib9Oqibh93SXzAjshHdZEDyxonoOlw/0?wx_fmt=png)  |[Intro2](https://mmbiz.qpic.cn/mmbiz_png/vbmfkZBusBH26doD4LHss3pwC0KuCmU5aia4Vnlc8qD6czA3S7sXRibCZnYHb9YVubA6nym3INiaHf8SxzcOBRqCg/0?wx_fmt=png)  |
 ## 三、详细设计
-
-
+### 物料清单
+| 序号 | 名称 | 型号/规格 | 封装 | 用量 | 品牌 | 商品编号 |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 1 | 二氧化碳传感器 | CCS811空气质量测量传感器 | 单独IC封装，15.24mm×15.24mm×2mm | 1 | 维特智能 | 911141 |
+| 2 | 电磁式有源一体蜂鸣器5V | YS-MBZ12095DYB05 | Through Hole,12x9.5mm | 2 | Fengming(锋鸣电子) | C409831 |
+| 3 | 灯带 | ws2812 |
+| 4 | OLED显示模块 | QG-2832TSWFG02 | 0.91"128x32 | 2 | 全智景Allvision | C91219 |
+| 5 | 亚克力板 |  | 500mm×500mm×2mm  | 1 |  |  |
+| 6 | 2.54杜邦线母对母单P同向(黑) | S108520012 | - | 15 | Ckmtw(灿科盟) | C368924 |
+| 7 | esp32 | NodeMCU-32SLua | - | 2 | Ai-Thinker(安信可) | C111436 |
+| 8 | Lora | Ra-02/0.91 | Module | 1 | Ai-Thinker(安信可) | C90039 |
 ### 加工制作过程
 [制作过程](https://zaowu.fun/p/600049a236531447f6c5b4b5)
 ## 四、性能指标
-### 外观
+### 1.	外观
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们的产品的外包装是使用牢固轻便的亚克力板拼装粘黏而成的长方体，尺寸是15cm×12cm×8cm。在外包装表面开有必要的孔洞用于暴露Lora的天线，显示屏与蜂鸣器。内部部件均用胶水粘好，牢固无松动。
-### 供电方式
+### 2.	供电方式
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;供电方式采用在产品内置额定容量6000mA·h（5V/2.1A）的充电宝直接供电。
-### 功耗
+### 3.	功耗
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;查阅资料，ESP32自身CPU工作状态功耗约为20mA-30mA，算上外围芯片，我们产品的正常工作时的功耗在100mA左右。
-### 使用时间
+### 4.	使用时间
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;充电宝一次充满电后保持我们的产品工作状态，可以维持6000mA·h ÷100mA = 60个小时。
-### 环境影响
+### 5.	环境影响
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;温度：一般种植期间大棚（管理得当）内的温度高可达36℃，低可达3℃。在这种温度条件下，我们的产品完全可以正常使用较长时间。</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;湿度：一般大棚内空气相对湿度可以达到50%-60%，极限情况下可达到100%。我们的产品不完全密封，受湿度影响会较大，导线暴露出的部分与各部件暴露出的接口都会产生金属腐蚀，但仍能使用较长一段时间。</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;湿度：一般大棚内空气相对湿度可以达到50%-60%，极限情况下可达到100%。我们的产品不完全密封，受湿度影响会较大，导线暴露出的部分与各部件暴露出的接口都会产生金属腐蚀，但仍能使用较长一段时间。
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电磁干扰：我们产品受电磁干扰影响较大，无论是自身的正常运行，还是远程传输信号，都会受到影响。不过在大棚地产生电磁干扰的物质较少，实际影响会较少。
-### 有毒物质
+### 6.	有毒物质
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可更换的充电宝自身具有毒性，但对大棚环境不造成影响；产品各个组成部分均封在包装内，不排出有毒物质。
-### 灵敏度
+### 7.	灵敏度
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在测试过程中，在较短时间内(<0.5s)反映出二氧化碳浓度变化，对于大棚内蔬菜来说这样的灵敏度完全足够。
 
 ## 五、代码
